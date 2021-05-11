@@ -13,7 +13,7 @@ public class Main {
         startJVM();
     }
 
-    public static void startJVM() {
+    private static void startJVM() {
         // 通过AppClassLoader加载main函数所在的类
         InstanceKlass mainKlass = BootClassLoader.loadMainKlass("com.ziya.jvm.example.HelloWorld");
 

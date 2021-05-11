@@ -21,9 +21,10 @@ public class BootClassLoader {
      *      多个路径以分号分隔
      *      只有一个的话，分号可省略
      *
-     *  注意路径后面的斜杠不可丢
+     *  注意路径后面的斜杠不可丢  //D:\hand_write_jvm\ziya-jvm-teach-master\target
      */
-    private static String searchPath = "/home/ziya/IdeaProjects/ziya-jvm-teach/target/classes/";
+    //private static String searchPath = "/home/ziya/IdeaProjects/ziya-jvm-teach/target/classes/";
+    private static String searchPath = "D:/hand_write_jvm/wxw-jvm/target/classes/";
 
     /**
      *  用于存储该类加载器加载的所有类
